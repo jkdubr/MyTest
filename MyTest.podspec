@@ -10,14 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "MyTest"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MyTest."
+  s.summary          = "Supr pod"
   s.description      = <<-DESC
-                       An optional longer description of MyTest
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Supr pod more
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MyTest"
+  s.homepage         = "https://github.com/jkdubr/MyTest"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jakub Dubrovsky" => "jkdubr@me.com" }

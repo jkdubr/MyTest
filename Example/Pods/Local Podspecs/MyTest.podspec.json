@@ -1,0 +1,25 @@
+{
+  "name": "MyTest",
+  "version": "0.1.0",
+  "summary": "Supr pod",
+  "description": "Supr pod more",
+  "homepage": "https://github.com/jkdubr/MyTest",
+  "license": "MIT",
+  "authors": {
+    "Jakub Dubrovsky": "jkdubr@me.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MyTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MyTest": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
